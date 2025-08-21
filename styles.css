@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f0fff4;
+  color: #2e4d26;
+}
+
+/* Styles for the navigation bar section*/
+.navbar {
+  background-color: #2e7d32;
+  padding: 15px 30px;
+  margin-bottom: 30px;
+  border: 3px solid #2e7d32;
+  color: white;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.nav-list li a:hover {
+  border-color: white;
+}
+
+/* Styles for the main layout with sidebar and content */
+.main-layout {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+/* Sidebar styling */
+.sidebar {
+  background-color: #c8e6c9;
+  padding: 20px 15px;
+  width: 200px;
+  border: 3px solid #81c784;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(46, 77, 38, 0.15);
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #4caf50;
+  color: #1b4d14;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 12px;
+}
+
+.sidebar ul li a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 4px 6px;
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background-color: #a5d6a7;
+}
+
+/* Style for the container that holds the cards */
+.container {
+  display: flex;
+  gap: 30px; /* this is for the space between cards */
+  flex-wrap: wrap;
+  flex: 1; /* this make container grow to take horizontal space */
+}
+
+/* Styles for the 'card' class */
+.card {
+  background-color: #d0f0c0;
+  padding: 25px;
+  border: 4px solid #66bb6a;
+  margin: 0;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(46, 77, 38, 0.2);
+}
+
+/* Styles for headings*/
+h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #388e3c;
+  background-color: #a5d6a7;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  padding-bottom: 4px;
+  border-bottom: 2px dashed #81c784;
+  background-color: #c8e6c9;
+}
+
+/* Styles for paragraph */
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 8px 12px;
+  background-color: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  border-radius: 6px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #2e7d32; 
+  color: #e6f2e6; 
+  text-align: center;
+  padding: 20px 15px;
+  font-size: 16px;
+  border-top: 4px solid #81c784; 
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
